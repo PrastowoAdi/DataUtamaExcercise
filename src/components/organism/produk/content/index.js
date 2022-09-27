@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Item from "./Item";
 
 export default function Content() {
   return (
-    <section className="pt-10">
+    <section className="pt-28">
       <div className="px-10 lg:px-32">
         <div className="flex flex-wrap">
           {Array(4)

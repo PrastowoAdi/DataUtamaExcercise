@@ -4,9 +4,9 @@ export default function Description() {
   return (
     <>
       <div className="py-3 border-b border-b-gray-300 pt-5">
-        <h4 className="text-lg">Deskripsi</h4>
+        <h4 className="text-xl">Deskripsi</h4>
       </div>
-      <div className="mt-5 text-gray-500">
+      <div className="mt-5 text-gray-500 text-lg">
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
           aspernatur nihil debitis optio assumenda ducimus, voluptate aliquam

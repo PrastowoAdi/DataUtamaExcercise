@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Modal from "react-modal";
 import Footer from "../../components/molecules/Footer";
 import Navbar from "../../components/molecules/Navbar";

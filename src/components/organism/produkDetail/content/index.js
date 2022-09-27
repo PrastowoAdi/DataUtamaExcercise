@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Description from "./Description";
 
@@ -56,8 +56,8 @@ export default function Content() {
           <div className="flex flex-wrap mt-3 gap-y-5 lg:gap-5">
             <div className="w-full lg:w-1/3">
               <label className="text-sm">Warna:</label>
-              <select className="w-full bg-gray-50 p-2 mt-2 text-sm text-gray-700 rounded-md shadow-lg shadow-gray-300">
-                <option selected>--Pilih--</option>
+              <select className="w-full bg-gray-50 p-2 mt-2 text-sm text-gray-700 rounded-md shadow-lg shadow-gray-300 focus:outline-none">
+                <option defaultValue="--Pilih--">--Pilih--</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -65,8 +65,8 @@ export default function Content() {
             </div>
             <div className="w-full lg:w-1/3">
               <label className="text-sm">Ukuran:</label>
-              <select className="w-full bg-gray-50 p-2 mt-2 text-sm text-gray-700 rounded-md shadow-lg shadow-gray-300">
-                <option selected>--Pilih--</option>
+              <select className="w-full bg-gray-50 p-2 mt-2 text-sm text-gray-700 rounded-md shadow-lg shadow-gray-300 focus:outline-none">
+                <option defaultValue="--Pilih--">--Pilih--</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -86,13 +86,13 @@ export default function Content() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M19.5 12h-15"
                     />
                   </svg>
@@ -106,13 +106,13 @@ export default function Content() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    class="w-5 h-5"
+                    className="w-5 h-5"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M12 4.5v15m7.5-7.5h-15"
                     />
                   </svg>
