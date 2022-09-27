@@ -14,12 +14,16 @@ export default function Navbar() {
           <div className="w-1/2">
             <div className="flex gap-3">
               <div className="flex lg:w-2/3 items-center justify-center">
-                <img src="/img/logo.png" alt="logo" className="w-17 h-14" />
+                <img
+                  src="/img/logo.png"
+                  alt="logo"
+                  className="w-13 h-10 md:w-17 md:h-14"
+                />
                 <Link
                   to="/produk"
                   className="cursor-pointer transition duration-150 hover:text-customgrn"
                 >
-                  <h2 className="font-black text-xl tracking-wider">
+                  <h2 className="text-lg font-black md:text-xl tracking-wider">
                     Data Utama
                   </h2>
                 </Link>
@@ -81,7 +85,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-              <div className="w-1/2 ml-auto lg:ml-0">
+              <div className="w-full md:w-1/2 ml-auto lg:ml-0">
                 <div className="flex">
                   <div className="ml-auto">
                     <div className="flex items-center gap-2">

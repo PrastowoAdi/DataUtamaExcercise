@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 export default function Item(props) {
   const { id, title, price, img } = props;
   return (
-    <div className="w-1/2 md:w-1/2 px-4 lg:w-1/4 xl:w-1/4 select-none" key={id}>
+    <div
+      className="w-full md:w-1/2 px-4 lg:w-1/4 xl:w-1/4 select-none"
+      key={id}
+    >
       <div className="bg-white rounded-md shadow-lg overflow-hidden mb-10 dark:bg-transparent dark:shadow-zinc-300 text-center border-2 border-black">
         <div className="py-3 px-3 pb-7">
           <img
